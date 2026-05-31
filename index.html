@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpongeBob Calculator</title>
+    <title>AFPP Calculator</title>
     <style>
         * {
             margin: 0;
@@ -254,8 +254,9 @@
     <div class="container">
         <div class="header">
             <div class="header-emoji">🧽</div>
-            <h1>SpongeBob Calculator</h1>
-            <p>I'm ready! I'm ready! I'm ready!</p>
+            <h1>AFPP Calculator</h1>
+            <p>I'm ready!</p>
+            <p>Our website link: https://ayaanshatomic810.wixsite.com/atomic-and-hca </p>
         </div>
 
         <div class="display">
@@ -277,18 +278,18 @@
         <div class="operations">
             <div class="operation-group">
                 <button class="operation-btn btn-add" onclick="calculate('add')">
-                    ➕ Add (Bob)
+                    ➕ Add (Sports)
                 </button>
                 <button class="operation-btn btn-sub" onclick="calculate('sub')">
-                    ➖ Subtract (Sponge)
+                    ➖ Subtract (Movies)
                 </button>
             </div>
             <div class="operation-group">
                 <button class="operation-btn btn-div" onclick="calculate('div')">
-                    ➗ Divide (Krabs)
+                    ➗ Divide (Coding)
                 </button>
                 <button class="operation-btn btn-mul" onclick="calculate('mul')">
-                    ✖️ Multiply (Mr.)
+                    ✖️ Multiply (Gaming)
                 </button>
             </div>
         </div>
@@ -302,7 +303,7 @@
             1. Enter two numbers<br>
             2. Click any operation button<br>
             3. See your result instantly!<br>
-            <strong style="color: #FF9800;">Fun fact:</strong> Operations are named after SpongeBob characters! 🎉
+            <strong style="color: #FF9800;">Fun fact:</strong> Operations are named after our genres of our channel! 🎉
         </div>
     </div>
 
@@ -325,11 +326,11 @@
             switch(operation) {
                 case 'add':
                     result = num1 + num2;
-                    operationName = 'Add (Bob)';
+                    operationName = 'Add (Sports)';
                     break;
                 case 'sub':
                     result = num1 - num2;
-                    operationName = 'Subtract (Sponge)';
+                    operationName = 'Subtract (Movies)';
                     break;
                 case 'div':
                     if (num2 === 0) {
@@ -338,11 +339,11 @@
                         return;
                     }
                     result = num1 / num2;
-                    operationName = 'Divide (Krabs)';
+                    operationName = 'Divide (Coding)';
                     break;
                 case 'mul':
                     result = num1 * num2;
-                    operationName = 'Multiply (Mr.)';
+                    operationName = 'Multiply (Gaming)';
                     break;
             }
 
